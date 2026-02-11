@@ -3,7 +3,7 @@ Personal project to learn CUDA which implements a parallelized GPU pipeline to g
 
 ## Overview
 Given a polynomial of the form: 
-$$y = w_0x^3 + w_1x_2 + w_2x + b$$
+$$y = w_0x^3 + w_1x^2 + w_2x + b$$
 
 The program:
 * Generates 10,000+ uniformly spaced samples over the domain [-10, 10]
